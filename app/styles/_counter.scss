@@ -1,0 +1,6 @@
+.counter {
+  button {
+    @extend .btn, .btn-default;
+    margin: 0 5px;
+  }
+}

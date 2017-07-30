@@ -1,0 +1,33 @@
+{
+  "private": true,
+  "scripts": {
+    "clean": "rimraf build coverage",
+    "start": "cross-env NODE_ENV=development webpack-dev-server --config=config/webpack.js",
+    "test": "cross-env NODE_ENV=test jest --config=config/jest.js",
+    "coverage": "npm run clean && npm test -- --coverage",
+    "build": "npm run clean && cross-env NODE_ENV=production webpack --progress --hide-modules --config=config/webpack.js",
+    "serve": "serve -s build"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "bootstrap-sass": "^3.3.7",
+    "prop-types": "^15.5.10",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.4",
+    "react-router-dom": "^4.1.2",
+    "redux": "^3.6.0"
+  },
+  "devDependencies": {
+    "jest": "^20.0.4",
+    "webpack-setup": "0.0.6"
+  },
+  "babel": {
+    "presets": [
+      "react-app"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
