@@ -13,7 +13,6 @@ Simple starter kit for building web apps using [React], [Redux], [React Router] 
 - [Documentation](#documentation)
 	- [What's Included](#whats-included)
 	- [Directory Structure](#directory-structure)
-- [Todos](#todos)
 
 <!-- /TOC -->
 
@@ -95,6 +94,7 @@ Open http://localhost:5000/ to see your app in browser.
 | [Babel] | 6 | ES6 and JSX compiler |
 | [ESLint] | 3 | Linting |
 | [Jest] | 20 | Testing |
+| [Enzyme] | 3 | Testing utility for React |
 
 Webpack, Babel and ESLint are configured using [webpack-setup].
 
@@ -128,6 +128,7 @@ my-app
 │   └── favicon.ico
 ├── .gitignore
 ├── package.json
+├── package-lock.json
 └── README.md
 ```
 
@@ -156,13 +157,6 @@ my-app
 `package.json` contains the list of scripts and libraries required to build and run your app. It also contains Babel and ESLint config under `"babel"` and `"eslintConfig"` keys respectively.
 
 
-## Todos
-
-- [ ] Add [Enzyme]
-- [ ] Add more tests
-- [ ] Add more examples inside app
-
-
 [Download]: https://github.com/react-web-app/react-web-app/archive/master.zip
 [React]: https://reactjs.org
 [Redux]: http://redux.js.org/
@@ -174,4 +168,4 @@ my-app
 [ESLint]: https://eslint.org/
 [Jest]: https://facebook.github.io/jest/
 [webpack-setup]: https://github.com/marella/webpack-setup
-[Enzyme]: https://github.com/airbnb/enzyme
+[Enzyme]: http://airbnb.io/enzyme/

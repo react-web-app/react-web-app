@@ -1,4 +1,5 @@
 import React from 'react'
+
 import { dependencies } from '../../package-lock.json'
 
 const libraries = [
@@ -50,13 +51,19 @@ const libraries = [
     'https://facebook.github.io/jest/',
     'https://facebook.github.io/jest/img/jest.svg',
   ],
+  [
+    'enzyme',
+    'Enzyme',
+    'http://airbnb.io/enzyme/',
+    'http://airbnb.io/img/projects/enzyme.png',
+  ],
 ]
 
 const Home = () => (
   <div>
     <div className="row text-center">
       {libraries.map(([pkg, name, link, logo], i) => (
-        <div key={i} className="col-3 mb-5">
+        <div key={i} className="col-4 mb-5">
           <a target="_blank" className="package" href={link}>
             <img className="img-fluid mb-2" src={logo} alt={name} />
             <br />
