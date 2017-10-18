@@ -1,6 +1,6 @@
 # React Web App
 
-Simple starter kit for building web apps using [React], [Redux], [React Router] and [Bootstrap] - [Sass]. [Webpack], [Babel], [ESLint] and [Jest] are preconfigured so you can focus on writing code.
+Simple starter kit for building web apps using [React], [Redux], [React Router] and [Bootstrap] - [Sass]. [Webpack], [Babel], [ESLint], [Jest] and [Enzyme] are preconfigured so you can focus on writing code.
 
 
 <!-- TOC depthFrom:2 depthTo:3 withLinks:1 updateOnSave:1 orderedList:0 -->
