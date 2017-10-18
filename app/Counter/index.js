@@ -5,7 +5,6 @@ import { increment, decrement } from './state'
 
 export const Counter = ({ count, increment, decrement }) =>
   <div className="counter">
-    <h3>Counter</h3>
     <button onClick={() => decrement(2)}>-2</button>
     <button onClick={() => decrement(1)}>-1</button>
     Count: {count}

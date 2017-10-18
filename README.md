@@ -80,21 +80,21 @@ Open http://localhost:5000/ to see your app in browser.
 
 ##### Libraries
 
-| Name | Description |
-| :--- | :--- |
-| [React] | Main library |
-| [Redux] | State management |
-| [React Router] | Routing |
-| [Bootstrap] - [Sass] | Styling |
+| Name | Version | Description |
+| :--- | :--- | :--- |
+| [React] | 16 | Main library |
+| [Redux] | 3 | State management |
+| [React Router] | 4 | Routing |
+| [Bootstrap] - [Sass] | 4 | Styling |
 
 ##### Tools
 
-| Name | Description |
-| :--- | :--- |
-| [Webpack] | Compiles and bundles assets |
-| [Babel] | ES6 and JSX compiler |
-| [ESLint] | Linting |
-| [Jest] | Testing |
+| Name | Version | Description |
+| :--- | :--- | :--- |
+| [Webpack] | 3 | Compiles and bundles assets |
+| [Babel] | 6 | ES6 and JSX compiler |
+| [ESLint] | 3 | Linting |
+| [Jest] | 20 | Testing |
 
 Webpack, Babel and ESLint are configured using [webpack-setup].
 
@@ -164,14 +164,14 @@ my-app
 
 
 [Download]: https://github.com/react-web-app/react-web-app/archive/master.zip
-[React]: https://facebook.github.io/react/
+[React]: https://reactjs.org
 [Redux]: http://redux.js.org/
-[React Router]: https://github.com/ReactTraining/react-router
-[Bootstrap]: https://github.com/twbs/bootstrap-sass
+[React Router]: https://reacttraining.com/react-router/web
+[Bootstrap]: https://getbootstrap.com
 [Sass]: http://sass-lang.com/
 [Webpack]: https://webpack.js.org/
 [Babel]: https://babeljs.io/
-[ESLint]: http://eslint.org/
+[ESLint]: https://eslint.org/
 [Jest]: https://facebook.github.io/jest/
 [webpack-setup]: https://github.com/marella/webpack-setup
 [Enzyme]: https://github.com/airbnb/enzyme
