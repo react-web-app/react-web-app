@@ -9,7 +9,7 @@ const App = () => (
   <div>
     <Navbar />
     <div className="container">
-      <Route exact path="/" render={Home} />
+      <Route exact path="/" component={Home} />
       <Route path="/counter" component={Counter} />
     </div>
   </div>
